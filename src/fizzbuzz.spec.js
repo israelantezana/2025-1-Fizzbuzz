@@ -11,4 +11,7 @@ describe("Fizzzbuzz", () => {
   it("deberia generar fizz si el numero ingresado es 3", () => {
     expect(fizzbuzz(3)).toEqual("Fizz");
   });
+  it("deberia generar fizz si el numero es multiplo de 3", () => {
+    expect(fizzbuzz(6)).toEqual("Fizz");
+  });
 });
